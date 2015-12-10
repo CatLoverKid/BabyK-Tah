@@ -141,7 +141,7 @@ class PowerUp extends Actor {
   }
   startPowerUpSpawnTimer() {
     if (!this.timerStarted) {
-      setTimeout(powerUp.spawnPowerUp, 2000);
+      setTimeout(powerUp.spawnPowerUp, 15000);
       this.timerStarted = true;
     }
   }

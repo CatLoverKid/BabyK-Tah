@@ -1,0 +1,26 @@
+canvas {
+  background-color: #A1D490;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: inline;
+}
+
+progress {
+  width: 400px;
+  height: 15px;
+  margin: 50px auto;
+  display: block;
+  margin: 0 auto;
+  -webkit-appearance: none;
+  border: none;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  border: 0;
+  background-color: black;
+  color: white;
+  font-family: serif;
+  font-size: 2em;
+}

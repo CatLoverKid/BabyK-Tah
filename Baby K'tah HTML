@@ -1,0 +1,5 @@
+<h2>BABY K'TAH ATTACKS</h2>
+<br>
+<progress id="healthBar" value="500" max="500">Health</progress>
+<br>
+<canvas id="canvas" width=600 height=600></canvas>

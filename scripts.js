@@ -1,5 +1,4 @@
-"use strict";
-var canvas = document.getElementById('canvas');
+var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext('2d');
 var backgroundColor = '#A1D490'
 var timerCollection = [];
@@ -10,7 +9,7 @@ var healthBar = document.getElementById('healthBar');
 function drawBG() {
   ctx.fillStyle = backgroundColor;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
-  ctx.stroke();
+  ctx.write();
 };
 
 function clamp(value, low, high) {

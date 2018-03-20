@@ -9,7 +9,7 @@ var healthBar = document.getElementById('healthBar');
 function drawBG() {
   ctx.fillStyle = backgroundColor;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
-  ctx.write();
+  ctx.fill();
 };
 
 function clamp(value, low, high) {
@@ -204,7 +204,7 @@ function killTimers() {
 }
 
 
-var player = new Player(100, 100, 'green', 15, 2);
+var player = new Player(100, 100, 'green', 15, 4);
 var zombies = [new Zombie(0.6), new Zombie(1), new Zombie(1.4)];
 var powerUp = new PowerUp;
 
